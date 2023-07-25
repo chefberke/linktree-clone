@@ -1,0 +1,33 @@
+body {
+    background-color: #4682A9;
+}
+.card-avatar img {
+    border-radius: 100px;
+    margin-top: 100px;
+    margin-left: 650px;
+}
+.card-name p {
+    color: #F6F4EB;
+    margin-top: 20px;
+    margin-left: 670px;
+}
+.card-boxes {
+    color: #91C8E4;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 4px;
+    width: 500px;
+    margin-top: 25px;
+    margin-left: 465px;
+    padding: 1px;
+}
+.card-boxes p {
+    color: #F6F4EB;
+    padding-left: 67px;
+    font-size: 18px;
+}
+.card-footer {
+    color: #F6F4EB;
+    margin-left: 660px;
+    margin-top: 35px;
+}
