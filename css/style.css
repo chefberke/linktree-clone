@@ -52,4 +52,61 @@ body {
     color: #333;
     cursor: pointer;
 }
-  
+@media (max-width: 500px) {
+    body {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(50, 61, 188, 1) 27%, rgba(0, 212, 255, 1) 100%);
+    }
+    
+    .card-avatar img {
+        border-radius: 100px;
+        margin-top: 90px;
+        margin-left: 180px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .card-name p {
+        color: #F6F4EB;
+        margin-top: 18px;
+        margin-left: 195px;
+        font-size: 18px;
+    }
+    .card-boxes {
+        color: #91C8E4;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-style: solid;
+        border-radius: 10px;
+        border-width: 4px;
+        width: 380px;
+        margin-top: 25px;
+        margin-left: 50px;
+        padding: 1px;
+    }
+    .card-boxes:hover {
+        cursor: pointer;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+    .card-boxes p {
+        color: #F6F4EB;
+        padding-left: 35px;
+        font-size: 18px;
+    }
+    .card-footer {
+        color: #F6F4EB;
+        margin-left: 185px;
+        margin-top: 30px;
+    }
+    .card-share {
+        margin-top: -750px;
+        margin-left: 50px;
+    }
+    .card-share span {
+        color: #ffffff;
+    }
+    .card-share .material-symbols-outlined {
+        font-size: 29px; 
+      }
+    .card-share span:hover {
+        color: #333;
+        cursor: pointer;
+    }
+  }
